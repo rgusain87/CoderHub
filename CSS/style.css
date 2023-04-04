@@ -1,0 +1,251 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "montserrat" !important;
+}
+.row {
+  left: 50%;
+}
+.nav {
+  height: 50px;
+  width: 100%;
+  background-color: #1177ca;
+  position: relative;
+}
+.navbar-nav {
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-weight: 500;
+}
+.nav-item {
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-weight: 500;
+}
+.dropdown-menu {
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-weight: 500;
+}
+.navbar-toggler-icon {
+  background-color: aquamarine;
+}
+
+.wid-100 {
+  width: 100% !important;
+}
+.nav-logoggg {
+  height: 100%;
+  filter: invert(100);
+}
+
+.Welcome {
+  font-family: "Fasthand";
+  font-size: 36px;
+  font-weight: 700;
+}
+.Wel {
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-weight: 400;
+}
+.Blogs {
+  font-family: "fasthand";
+  font-size: 36px;
+  font-weight: 700;
+}
+.Blo {
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-weight: 400;
+}
+.Courses {
+  font-family: "fasthand";
+  font-size: 36px;
+  font-weight: 700;
+}
+.Cour {
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-weight: 400;
+}
+.col-md-7 {
+  background-image: url(../images/error.png);
+}
+.whychoose {
+  font-family: "Pacifio";
+  font-size: 36px;
+  font-weight: 700;
+}
+.reason {
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-weight: 400;
+}
+.col-md-3 {
+  font-family: "Fasthand";
+  font-size: 20px;
+  font-weight: 500;
+  color: rgb(46, 14, 14);
+}
+.mar-l-auto {
+  margin-left: auto;
+}
+.img-fluid {
+  height: 20px;
+}
+.first-paralax {
+  background-image: url("../images/Personcoding.jpg");
+  background-attachment: fixed;
+  height: 50vh;
+  background-size: cover;
+  position: relative;
+  background-repeat: no-repeat;
+}
+.first-paralax h4 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.row-container {
+  background-image: url("../images/121.jpg");
+  background-size: cover;
+  width: 100%;
+}
+
+.parallax-t {
+  margin-top: 20px;
+  position: relative;
+  width: 100%;
+
+  background-image: url("../images/Parallax-background.jpg");
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
+.firstway {
+  text-align: center;
+  font-style: italic;
+  font-family: "fasthand";
+  font-size: 36px;
+  font-weight: 700;
+}
+.Coder {
+  text-align: center;
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-weight: 400;
+}
+.c-a {
+  height: 10px;
+}
+.carousel-indicators {
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-weight: 500;
+}
+.card-titles {
+  font-family: "fasthand";
+  font-size: 24px;
+  font-weight: 600;
+}
+.footer {
+  background: #000000a1;
+}
+
+.g-img {
+  height: 300px;
+}
+.navbar-brand {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.img-block {
+  top: 50;
+  left: 100vh;
+}
+
+.mb-3 {
+  font-family: "fasthand";
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
+}
+.text-muted {
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-weight: 400;
+  color: white;
+}
+.small {
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-weight: 400;
+}
+.Faceb {
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-weight: 400;
+  color: white;
+}
+.col-lg-8 {
+  color: white;
+}
+
+/*Service vertical */
+@media (max-width: 767px) {
+  .carousel-inner .carousel-item > div {
+    display: none;
+  }
+  .carousel-inner .carousel-item > div:first-child {
+    display: block;
+  }
+}
+.serviceverticle-slider .carousel-inner .carousel-item.active,
+.serviceverticle-slider .carousel-inner .carousel-item-next,
+.serviceverticle-slider .carousel-inner .carousel-item-prev {
+  display: flex;
+}
+@media (min-width: 768px) {
+  .carousel-inner .carousel-item-end.active,
+  .carousel-inner .carousel-item-next {
+    transform: translateX(25%);
+  }
+  .carousel-inner .carousel-item-start.active,
+a  .carousel-inner .carousel-item-prev {
+    transform: translateX(-25%);
+  }
+}
+.carousel-inner .carousel-item-end,
+.carousel-inner .carousel-item-start {
+  transform: translateX(0);
+}
+.Service {
+  font-family: "fasthand";
+  font-size: 20px;
+  font-weight: 500;
+}
+.Ser {
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-weight: 400;
+}
+.imgservice {
+  width: 300px;
+  height: 300px;
+}
+.text-black {
+  color: black;
+}
+.textss {
+  color: black;
+}
+
+.ser-vet {
+  background-color: rgb(235, 235, 243);
+}
